@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import Route from 'react-dom'
+// import {Headersection} from './components';
+import './assets/App.css';
+import './assets/responsive.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Headersection from './components/Headersection';
+import FooterSection from './components/Footer';
+import AboutPage from './components/AboutUs';
 
+
+// const about = React.lazy(() => import('pages/about'));
+// <Route exact path="/requests/new/" component={NewListing} />  */}
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Homepage">
+        <Headersection />
+        <AboutPage />
+        <FooterSection />
     </div>
-  );
+
+   );
 }
 
 export default App;

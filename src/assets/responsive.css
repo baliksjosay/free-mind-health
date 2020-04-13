@@ -1,0 +1,160 @@
+/* large screens */
+@media all and (max-width: 1024px) {
+	.footer-link-section{
+	  height:400px	
+      
+	}
+}
+
+/* For Tablets */
+@media all and (max-width: 1000px) {
+
+  .parent-company{
+		display: none;
+	}
+	.top-header a{
+		font-size:15px;
+  }
+  
+  bottom-section{
+    height: 30px;
+  }
+  
+  
+
+	.menu-icon {
+    display:inline-block;
+    position:relative;
+  }
+  
+  
+	nav, nav:active{ 
+
+		display: none;
+		position: relative;
+		background: #212121;
+		border: 5px solid #444;
+		top: -60px;
+		width: 100%;
+		border-radius: 4px 0 4px 4px;
+
+  }
+  nav {
+
+    float: right;
+    padding: 15px 70px;	
+    
+  }
+
+ /*footer links*/
+footer{
+  background-color: #1f262e;
+  height: 1200px;
+}
+ .footer-link-section h3{
+  font-size: 20px;
+  }
+
+.footer-link-section{
+  width:auto;
+  float: left;
+  margin: 0px;
+  width: 50%;
+}
+
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  header {
+
+    position: fixed;
+    height:50px ;
+
+  }
+
+  .parent-company{
+		display: none;
+	}
+	.top-header a{
+		font-size:15px;
+  }
+  
+  bottom-section{
+    height: 30px;
+  }
+  
+
+  
+
+	.menu-icon {
+    display:inline-block;
+    position:relative;
+  }
+  
+  .menu-icon:active{
+position: fixed;  }
+
+	nav , nav:active  { 
+
+		display: none;
+		position: relative;
+		background: #212121;
+		border: 5px solid #444;
+		top: -40px;
+		width: 100%;
+		border-radius: 4px 0 4px 4px;
+
+  }
+  nav {
+
+    float: right;
+    padding: 15px 70px;	
+    
+  }
+  
+
+	nav a {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover a {
+
+    display: block;
+    top: -80px
+
+  }
+  
+
+  .header-title h3{
+  font-size: auto;
+  height:auto;
+  margin: 5px;
+  padding: 0px
+  }
+  
+  /* Add CSS for menu-icon */
+  .bottom-section a:not(:first-child){display: none;}
+  .bottom-section a.menu-icon{
+    float: right;
+    display: block;
+  }
+.bottom-section.responsive {position: relative; } 
+.bottom-section.responsive a.menu-icon{
+  position: absolute;
+  right: 0; 
+  top:0;
+}
+
+.bottom-section.responsive a{
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+}
