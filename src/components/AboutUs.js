@@ -16,7 +16,7 @@ const AboutPage = ()=> {
             <Col  xl="1" lg="1" md="1" sm="1" />
             <Col  xl="6" lg="7" md="11" sm="11" style={{padding:"20px"}} className="aboutcontent">
                 <Card>
-                    <CardHeader style={{backgroundColor:"#3daa8a"}}>ABOUT FREE-MIND THERAPY UGANDA</CardHeader>
+                    <CardHeader style={{backgroundColor:"#3daa8a"}}><b>ABOUT FREE-MIND THERAPY UGANDA</b></CardHeader>
                     <CardBody style={{backgroundColor:"floralwhite"}}>
                         <p>
                             Free-Mind Therapy Uganda is an indigenous Non-government organization established in 2016 and legally incorporated in 

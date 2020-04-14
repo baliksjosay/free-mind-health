@@ -87,13 +87,16 @@ header .logo {
 	background-color: #3daa8a;
 	color: white;
     text-decoration:none ;
-	
-
-	
+		
 }
-	
+
+.mobiletitle{
+	display:none;
+}
+
+
   /* menu-icon */
-.menu-icon{
+.menuicon{
 	display: none;
 	background:#212121 url(./images/menu-icon.png) center; 
 }
