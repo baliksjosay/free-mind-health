@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Headersection from './components/Headersection';
 import FooterSection from './components/Footer';
 import AboutPage from './components/AboutUs';
+// import HeaderPage from './components/header';
+
 
 
 // const about = React.lazy(() => import('pages/about'));
@@ -14,10 +16,10 @@ import AboutPage from './components/AboutUs';
  
 function App() {
   return (
-    <div className="Homepage">
+    <div className="Homepage">      
         <Headersection />
-        <AboutPage />
-        <FooterSection />
+        <AboutPage /> 
+        <FooterSection /> 
     </div>
 
    );

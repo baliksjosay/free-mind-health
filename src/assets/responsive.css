@@ -1,4 +1,4 @@
-/* large screens */
+large screens
 @media all and (max-width: 1024px) {
 	.footer-link-section{
 	  height:400px	
@@ -28,7 +28,7 @@
   }
   
   
-	nav, nav:active{ 
+	bottom-section :active{ 
 
 		display: none;
 		position: relative;
@@ -39,7 +39,7 @@
 		border-radius: 4px 0 4px 4px;
 
   }
-  nav {
+  bottom-section  {
 
     float: right;
     padding: 15px 70px;	
@@ -51,15 +51,16 @@ footer{
   background-color: #1f262e;
   height: 1200px;
 }
- .footer-link-section h3{
+ .footer-link-section h4{
   font-size: 20px;
   }
 
 .footer-link-section{
-  width:auto;
+  /* width:auto; */
   float: left;
   margin: 0px;
-  width: 50%;
+  width: 25%;
+  padding-top: 20px;
 }
 
 }
@@ -69,7 +70,7 @@ footer{
   header {
 
     position: fixed;
-    height:50px ;
+    height:auto ;
 
   }
 
@@ -84,18 +85,27 @@ footer{
     height: 30px;
   }
   
-
+.nametitle{
+  font-size: 25px;
+}
   
 
 	.menu-icon {
-    display:inline-block;
+    display:block;
     position:relative;
+    padding: 10px; 
+    margin:30px;
+    color:red;
   }
   
-  .menu-icon:active{
-position: fixed;  }
+.menu-icon:active{
+  position: fixed; 
+  width: 40px;
+	height: 40px;
+	background-color: #212121; 
+}
 
-	nav , nav:active  { 
+/* .bottom-section:active  { 
 
 		display: none;
 		position: relative;
@@ -105,16 +115,10 @@ position: fixed;  }
 		width: 100%;
 		border-radius: 4px 0 4px 4px;
 
-  }
-  nav {
-
-    float: right;
-    padding: 15px 70px;	
-    
-  }
+ }  */
   
 
-	nav a {
+	bottom-section  a {
 
 		text-align: center;
 		width: 100%;
@@ -123,13 +127,13 @@ position: fixed;  }
 
 	}
 
-	nav:hover a {
+	bottom-section :hover a {
 
     display: block;
-    top: -80px
+    /* top: -80px */
 
   }
-  
+ 
 
   .header-title h3{
   font-size: auto;
